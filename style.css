@@ -130,6 +130,12 @@ body{
     }
   }
 
+  @media (max-width: 500px){
+  	.direccion{
+  		flex-direction: column;
+  	}
+  }
+
   /* Modal*/
   .modal-contenido>a{
   	text-decoration: none;

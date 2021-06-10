@@ -5,6 +5,10 @@ body{
 	font-weight: 400;
 	color: white;
 }
+.barras{
+	color: white;
+	font-size: 1.7rem;
+}
 .navegacion{
 	background: rgba(17, 75, 168, .8);
 	

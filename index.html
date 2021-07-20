@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="mdb/css/mdb.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 	<script src="smooth-scroll.min.js"></script>
 	<script>
 		smoothScroll.init({
@@ -38,7 +39,7 @@
 		    >
 		      <i class="fas fa-bars barras"></i>
 		    </button>
-			<a class="navbar-brand mt-2 mt-lg-0" href="#">
+			<a class="navbar-brand mt-2 mt-lg-0 animate__animated animate__fadeInLeft" href="#">
 		         &#60 Ruben Gianelli /&#62 
 		    </a>
 		    <!-- Collapsible wrapper -->
@@ -62,17 +63,13 @@
 		      </ul>
 		       <div class="d-flex align-items-center">
 			      <div class="d-flex">
-			        <a href="" class="btn btn-danger"><i class="fas fa-file-download icono"></i>Descargar CV</a>
-			        <a href="" class="btn btn-dark mx-2"><i class="fab fa-github icono"></i>GitHub</a>
+			       <!-- <a href="" class="btn btn-danger"><i class="fas fa-file-download icono"></i>Descargar CV</a>-->
+			        <a href="https://github.com/chucho523" target="_blank" class="btn btn-dark mx-2"><i class="fab fa-github icono"></i>GitHub</a>
 			      </div>
 		       </div>
 		      <!-- Left links -->
 		    </div>
 		    <!-- Collapsible wrapper -->
-
-		    <!-- Right elements -->
-		   
-		    <!-- Right elements -->
 		  </div>
 		  <!-- Container wrapper -->
 		</nav>
@@ -83,11 +80,11 @@
 	<a id="hola"></a>
 
 	<section class="header fondoHeader">
-			<div class="contenedores">
+			<div class="contenedores animate__animated animate__fadeInLeft">
 				<img class="imagen" src="img/avatar.jpg" alt="" />
 			</div>
             <div class="contenedores">
-                <div class="saludo">
+                <div class="saludo animate__animated animate__fadeInLeft">
                     <div class="hola">¡Hola!</div>
                     <div class="front">Soy Rubén Gianelli</div>
                     <div >- Front-End Developer -</div>
@@ -103,8 +100,9 @@
 	    		<div class="col-md-6 col-sm-12 mb-3">
 	    			<div class="col-12">
 	    				<h3 class="mb-2">Sobre Mi</h3>   			
-	    				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel perferendis veniam sit odio, nulla corporis suscipit, quidem fuga natus. Sed.
-	    				Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Rem, quam!
+	    				Soy Rubén Gianelli, Técnico en Informática Profesional y Personal y estudiante de Ingeniería en Sistemas en UTN Rosario(2 años de estudio).
+						Estudiante autodidacta en Udemy de cursos para desarrollador FrontEnd y JavaScript.
+						Siempre tuve interés en la programación y en el mundo de la informática. Disfruto aprender y desarrollar nuevos proyectos.
 	    			</div>
 	    					
 	    		</div>
@@ -122,9 +120,9 @@
 	    			</div>    			
 	    		</div>
 	    		<div class="mt-4 col-12 d-flex flex-row direccion justify-content-center">
-	    			<a href="" class="btn btn-dark mx-2">LinkedIn</a>
-	    			<a href="" class="btn btn-danger mx-2">Instagram</a>
-	    			<a href="" class="btn btn-success mx-2">WhatsApp</a>
+	    			<a href="https://www.linkedin.com/in/rub%C3%A9n-gianelli-265368204/" target="_blank" class="btn btn-dark mx-2">LinkedIn</a>
+	    			<a href="https://www.instagram.com/rubengianelli8/" target="_blank" class="btn btn-danger mx-2">Instagram</a>
+	    			<a href="https://wa.me/543408670960" target="_blank" class="btn btn-success mx-2">WhatsApp</a>
 	    		</div>	
 	    	</div>
     	</div>
@@ -132,48 +130,28 @@
     <!-- ************************************************** Proyectos***************************************************-->
     <section class="container-fluid d-flex proyectos fondoProyectos align-items-center">
     	<div class="container  my-5">
-    		<h3 class="mb-3 text-proyectos">Proyectos</h3>
+    		<h3 class="mb-3 text-proyectos animate__animated animate__fadeInLeft">Proyectos</h3>
     		<div class="row">
     			<div  class="col-md-3 col-sm-6 mb-3 ">
     				<div class="bg-image">
-	    				<img src="img/card-proyecto.jpg" class="img-fluid proyectoImagen" alt="">
+	    				<img src="img/proyectoMovie.png" class="img-fluid proyectoImagen" alt="">
 	    				<a href="#proyecto1" class="mask" style="background-color: rgba(0, 0, 0, .5); ">
 	    					<div class="d-flex justify-content-center align-items-center h-100">
-	    						<p class="text-white tit-proyecto text-center">Proyecto 1</p>
+	    						<p class="text-white tit-proyecto text-center">Movie App</p>
 	    					</div>
 	    				</a>
     				</div>
     			</div>
     			<div  class="col-md-3 col-sm-6 mb-3 ">
     				<div class="bg-image">
-	    				<img src="img/card-proyecto.jpg" class="img-fluid proyectoImagen" alt="">
+	    				<img src="img/landingPage.png" class="img-fluid proyectoImagen" alt="">
 	    				<a href="#proyecto2" class="mask" style="background-color: rgba(0, 0, 0, .5); ">
 	    					<div class="d-flex justify-content-center align-items-center h-100">
-	    						<p class="text-white tit-proyecto text-center">Proyecto 2</p>
+	    						<p class="text-white tit-proyecto text-center">Landing page</p>
 	    					</div>
 	    				</a>
     				</div>
-    			</div> 
-    			<div  class="col-md-3 col-sm-6 mb-3 ">
-    				<div class="bg-image">
-	    				<img src="img/card-proyecto.jpg" class="img-fluid proyectoImagen" alt="">
-	    				<a href="#proyecto3" class="mask" style="background-color: rgba(0, 0, 0, .5); ">
-	    					<div class="d-flex justify-content-center align-items-center h-100">
-	    						<p class="text-white tit-proyecto text-center">Proyecto 3</p>
-	    					</div>
-	    				</a>
-    				</div>
-    			</div> 
-    			<div  class="col-md-3 col-sm-6 mb-3 ">
-    				<div class="bg-image">
-	    				<img src="img/card-proyecto.jpg" class="img-fluid proyectoImagen" alt="">
-	    				<a href="#proyecto4" class="mask" style="background-color: rgba(0, 0, 0, .5); ">
-	    					<div class="d-flex justify-content-center align-items-center h-100">
-	    						<p class="text-white tit-proyecto text-center">Proyecto 4</p>
-	    					</div>
-	    				</a>
-    				</div>
-    			</div>     			
+    			</div> 			
     		</div>
     	</div>
     </section>
@@ -183,11 +161,12 @@
 	  		<div class="d-flex justify-content-end">
 	  			<a href="#proyectos" class="text-white">X</a>
 	  		</div>		    
-		    <h2>Proyecto 1</h2>
-		    <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eos rem ea in sed harum odio explicabo quidem eaque ex veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio aperiam maiores explicabo deleniti alias nihil voluptates eveniet quia aut.</p>
+		    <h2>Movie App</h2>
+		    <p>Aplicación web en la que se puede ver información sobre peliculas.</p>
+		    <p>Esta aplicación es completamente responsive, y fue desarrollada con React js, consumiendo la API theMovieDB </p>
 		    <div class="d-flex flex-row">
-		    	<a class="btn btn-success mx-2">Ver demo</a>
-		    	<a class="btn btn-dark">Ver repositorio</a>
+		    	<a class="btn btn-success mx-2" href="https://chucho523.github.io/movieApp/" target="_blank">Ver demo</a>
+		    	<a class="btn btn-dark" href="https://github.com/chucho523/movieApp" target="_blank">Ver repositorio</a>
 		    </div>
 		    
 	 	</div>  
@@ -199,47 +178,18 @@
 	  		<div class="d-flex justify-content-end">
 	  			<a href="#proyectos" class="text-white">X</a>
 	  		</div>		    
-		    <h2>Proyecto 2</h2>
-		    <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eos rem ea in sed harum odio explicabo quidem eaque ex veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio aperiam maiores explicabo deleniti alias nihil voluptates eveniet quia aut.</p>
+		    <h2>Landing Page</h2>
+		    <p>Pagina web desarrolada para un cliente de fiverr, esta web fue realizada utilizando, HTML 5, CSS 3, JavaScript y Bootstrap.</p>
 		    <div class="d-flex flex-row">
-		    	<a class="btn btn-success mx-2">Ver demo</a>
-		    	<a class="btn btn-dark">Ver repositorio</a>
+		    	<a href="https://chucho523.github.io/landing-Page/" target="_blank" class="btn btn-success mx-2">Ver demo</a>
+		    	<a href="https://github.com/chucho523/landing-Page" target="_blank" class="btn btn-dark">Ver repositorio</a>
 		    </div>
 		    
 	 	</div>  
 	</div>
 
 
-    <div id="proyecto3" class="modals">
-	  	<div class="modal-contenido">
-	  		<div class="d-flex justify-content-end">
-	  			<a href="#proyectos" class="text-white">X</a>
-	  		</div>		    
-		    <h2>Proyecto 3</h2>
-		    <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eos rem ea in sed harum odio explicabo quidem eaque ex veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio aperiam maiores explicabo deleniti alias nihil voluptates eveniet quia aut.</p>
-		    <div class="d-flex flex-row">
-		    	<a class="btn btn-success mx-2">Ver demo</a>
-		    	<a class="btn btn-dark">Ver repositorio</a>
-		    </div>
-		    
-	 	</div>  
-	</div>
-
-
-    <div id="proyecto4" class="modals">
-	  	<div class="modal-contenido">
-	  		<div class="d-flex justify-content-end">
-	  			<a href="#proyectos" class="text-white">X</a>
-	  		</div>		    
-		    <h2>Proyecto 4</h2>
-		    <p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Eos rem ea in sed harum odio explicabo quidem eaque ex veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio aperiam maiores explicabo deleniti alias nihil voluptates eveniet quia aut.</p>
-		    <div class="d-flex flex-row">
-		    	<a class="btn btn-success mx-2">Ver demo</a>
-		    	<a class="btn btn-dark">Ver repositorio</a>
-		    </div>
-		    
-	 	</div>  
-	</div>
+  
 
 
     <!-- ****************************************************CONTACTO************************************************************** -->
